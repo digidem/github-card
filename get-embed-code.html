@@ -6,7 +6,10 @@
     <title>Get a Github Card embed code</title>
     <meta name="description" content="Creates an embed code for including a Github card on your site">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.1.1/gh-fork-ribbon.min.css" />
+    <!--[if lt IE 9]>
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.1.1/gh-fork-ribbon.ie.min.css" />
+    <![endif]-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <style>
       body {
@@ -18,6 +21,11 @@
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
   </head>
   <body>
+  <div class="github-fork-ribbon-wrapper right">
+    <div class="github-fork-ribbon">
+        <a href="https://github.com/digidem/github-card">Fork me on GitHub</a>
+    </div>
+  </div>
   <div class="container"><div class="row"><div class="col-sm-12 col-lg-6">
     <h1>Github Card</h1>
     <p>Copy and paste the code below to embed a <a href="https://developmentseed.org/blog/2015/05/14/github-cards/">Github Card</a> into your site. Inspired by (heavily borrowed from) <a href="https://developmentseed.org/">Development Seed</a></p>
