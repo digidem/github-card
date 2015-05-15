@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  font-family: sans-serif;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 298px;
+  height: 153px;
+  position: absolute;
+  color: #333;
+}
+
+.hidden > * {
+  visibility: hidden;
+}
+
+a {
+  color: #cf3f02;
+  text-decoration: none;
+}
+
+.card-header {
+  padding: 24px 16px;
+}
+
+.card-header + .card-body {
+  margin-top: -24px;
+  padding-top: 0;
+}
+
+.card-suptitle {
+  color: #aaa;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.card-title {
+  font-size: 20px;
+  line-height: 28px;
+  margin: 0;
+}
+
+.card-title a, .card-title a:visited {
+  color: inherit;
+}
+
+.card-details {
+  border-top: 1px solid #ccc;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 16px 16px;
+  margin: 24px 0;
+}
+.card-details dt, .card-details dd {
+  float: left;
+}
+
+.card-details dt {
+  padding-right: 8px;
+}
+
+.card-details dd {
+  margin: 0;
+  padding-right: 16px;
+}
